@@ -16,6 +16,9 @@ public class HelloApplication extends Application {
         stage.setScene(scene);
         stage.show();
         System.out.println("Hola, Ale hizo un cambio aqui c:");
+        int a = 0;
+        int b = 1;
+        int c = a+b;
     }
 
     public static void main(String[] args) {
